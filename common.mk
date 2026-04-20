@@ -122,6 +122,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	checkpoint_gc
 
+PRODUCT_COPY_FILES += \
+    device/google/zuma/conf/disable_pds.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/disable_pds.sh
+
 # Touch
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml

@@ -1,0 +1,7 @@
+service disable_pds /system/bin/sh /system/bin/disable_pds.sh
+    class late_start
+    user shell
+    group shell log readproc
+    seclabel u:r:shell:s0
+    oneshot
+
