@@ -26,7 +26,4 @@
         rounded_corner_radius_bottom to more accurately provide a "radius" for the bottom rounded
         corners. -->
     <dimen name="rounded_corner_radius_bottom_adjustment">4px</dimen>
-
-    <!-- Default paddings for content around the corners. -->
-    <dimen name="rounded_corner_content_padding">70px</dimen>
 </resources>
